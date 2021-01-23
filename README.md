@@ -1,1 +1,13 @@
-[![Work in Repl.it](https://classroom.github.com/assets/work-in-replit-14baed9a392b3a25080506f3b7b6d57f295ec2978f6f33ec97e36a161684cbe9.svg)](https://classroom.github.com/online_ide?assignment_repo_id=3927045&assignment_repo_type=AssignmentRepo)
+Version 0.1 (End of Week 14)
+
+|Page|Completion Rate|
+|---|---|
+|Home|0%|
+|Resources|0%|
+|About|0%|
+|Error404|65%|
+
+
+
+Need to figure out the home-cards div and the resource-card div, <br>
+finalised the NAV and FOOTER. and bascially done?

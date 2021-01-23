@@ -1,0 +1,57 @@
+/* CSS files add styling rules to your content */
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&family=Roboto+Mono&display=swap');
+
+* {
+  margin:0;
+  padding:0;
+  
+  font-family:Roboto,Arial,sans-serif;
+  box-sizing:border-box;
+}
+
+/* Typography */
+
+h3 {
+  font-family: 'Spartan', sans-serif;
+  font-size:18px;
+  font-weight:600;
+  color: #666
+}
+
+
+
+/* Placement & Designs */
+.container-85 {
+  width:85%;
+  height:3000px;
+  margin:auto;
+  
+  border:1px solid red;
+}
+
+.divider {
+  height:50px;
+  border-bottom: 5px solid #4285f4;
+  margin: 30px;
+}
+
+.spacing {
+  height:20px;
+  
+  border:1px solid #00ff80;
+}
+
+.left {
+  float:left;
+}
+
+.right {
+  float:right;
+}
+
+
+@media screen and (max-width: 1500px) {
+  .container-85 {
+    width: 100%;
+  }
+}

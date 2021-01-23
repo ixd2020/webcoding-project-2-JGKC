@@ -1,0 +1,28 @@
+.cardholder {
+  width:50%;
+  float:left;
+  background: white;  
+  
+}
+
+.cardholder a {
+  text-decoration: none
+}
+
+
+.cardholder :hover {
+  box-shadow: 0px 0px 10px grey;
+}
+
+.card {
+  padding:30px;
+  background: white;  
+}
+
+
+
+.card-topic {
+  font-family: 'Roboto Mono', monospace;
+  font-size:14px;
+  color: #72757a
+}
