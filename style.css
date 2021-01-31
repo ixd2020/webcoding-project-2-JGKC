@@ -9,7 +9,25 @@
   box-sizing:border-box;
 }
 
+.clearfix {
+  overflow: auto;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
 /* Typography */
+
+h1 {
+  font-family: Roboto, sans-serif;
+  font-size:36px;
+  font-weight:400;
+  
+}
+
 
 h3 {
   font-family: 'Spartan', sans-serif;
@@ -21,12 +39,9 @@ h3 {
 
 
 /* Placement & Designs */
-.container-85 {
-  width:85%;
-  height:3000px;
+.container-80 {
+  width:80%;
   margin:auto;
-  
-  border:1px solid red;
 }
 
 .divider {
@@ -38,7 +53,7 @@ h3 {
 .spacing {
   height:20px;
   
-  border:1px solid #00ff80;
+  /*border:1px solid #00ff80;*/
 }
 
 .left {

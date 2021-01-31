@@ -1,13 +1,21 @@
 Version 0.1 (End of Week 14)
 
-|Page|Completion Rate|
+|HTML|Completion Rate|
 |---|---|
 |Home|0%|
 |Resources|0%|
-|About|0%|
-|Error404|65%|
+|About|90%|
+|Error404|100%|
+<br>
+<br>
+
+|CSS|Completion Rate|
+|---|---|
+|Navigation|100%|
+|Index Navigation|80%|
+|Footer|100%|
+|Home-Cards|20%|
+|Resources-Cards|0%|
 
 
-
-Need to figure out the home-cards div and the resource-card div, <br>
-finalised the NAV and FOOTER. and bascially done?
+Need to figure out the home-cards div and the resources-cards div, <br>

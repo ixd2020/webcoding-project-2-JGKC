@@ -1,7 +1,7 @@
 .nav {
-  height:50px
+  height:65px;
+  margin-bottom:20px
 }
-
 
 .nav a { 
   height: 50px;
@@ -11,10 +11,64 @@
   color: #333;
 }
 
-.nav a:hover {
-  border-bottom: 4px solid #DDD;
+/* HOME PAGE - GOOGLE DESIGN LOGO */
+.nav-logo {
+  width:20%;
+  height:65px;
+  
+  float:left;
+}
+
+/* NAVIGATION LINKS */
+.nav-link {
+  width:60%;
+  height:65px;
+  
+  line-height:50px;
+  display:flex;
+  justify-content:center;
+  text-align:center;
+  
+  font-family: 'Spartan', sans-serif;
+  float:left;
 }
 
 .link-container {
-  border: 1px solid #DDD;
+  padding:5px; 
+  margin: 0px 7.5px;
+  float: left:
+}
+
+.link-container :hover {
+  border-bottom: 4px solid #DDD;
+}
+
+/* Actual Website has this Nav highlight when hover on each of the links*/
+.nav-library :active{
+  border-bottom: 4px solid #4285F4;
+}
+
+.nav-news :active{
+  border-bottom: 4px solid #DB4437;
+}
+
+.nav-resources :active{
+  border-bottom: 4px solid #F4B400;
+}
+
+.nav-jobs :active{
+  border-bottom: 4px solid #0F9D58;
+}
+
+.nav-about :active{
+  border-bottom: 4px solid #4285F4;
+}
+
+/* SEARCH BUTTON */
+.search-button {
+  height:65px;
+  line-height:50px;
+  padding: 5px 20px;
+  margin: 0px 7.5px;
+  float: right;
 }

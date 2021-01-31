@@ -15,19 +15,100 @@
     <link rel="stylesheet" href="/Cards.css" />
     <!-- import the webpage's javascript file -->
     <script src="/script.js" defer></script>
+    <!-- import icons from font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
   </head>
   <body>
-    <div class="container-85">
-      <section>
-        <!-- Section 3 -->
-        <div class="divider"></div>
-        <div class="cardholder"><!-- Article 1 -->
-          <a href="/error404.html">
-            <div class="card">
-              <img
-                src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/user-friendly-feedback_3X2tile.jpg"
-                style="width:100%"
-              />
+    <!-- NAVIGATION -->
+    <div
+      class="container"
+      style="width:20%; margin:auto; padding-top:10px;height:110px;"
+    >
+      <img
+        src="https://cdn.glitch.com/eeb99deb-beee-4fa2-9ade-69fa216ebc43%2FGD-logo-2.png?v=1611803265328"
+        style="width:100%;height:auto"
+      />
+    </div>
+
+    <nav class="nav">
+      <div class="container-85">
+        <!-- HOME - EMPTY IN INDEX PAGE-->
+        <div class="nav-logo"></div>
+
+        <!-- NAVIGATION LINKS -->
+        <div class="nav-link">
+          <!-- LIBRARY -->
+          <div class="link-container nav-library">
+            <a href="/error404.html">Library</a>
+          </div>
+          <!-- NEWS -->
+          <div class="link-container nav-news">
+            <a href="/error404.html">News</a>
+          </div>
+          <!-- RESOURCES -->
+          <div class="link-container nav-resources">
+            <a href="/error404.html">Resources</a>
+          </div>
+          <!-- JOBS -->
+          <div class="link-container nav-jobs">
+            <a href="/error404.html">Jobs</a>
+          </div>
+          <!-- ABOUT -->
+          <div class="link-container nav-about">
+            <a href="/about.html">About</a>
+          </div>
+        </div>
+
+        <!-- SERACH -->
+        <div class="search" style="float:right; width:20%;">
+          <div class="search-button">
+            <span class="fa fa-search lg"></span>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Section 1 -->
+    <section class="container-85">
+      <div class="big-cardholder">
+        <a href="/error404.html">
+          <div class="card">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Google-design-2020_3X2.png"
+            />
+            <div class="card-text">
+              <h2>
+                Google Design's Best of 2020
+              </h2>
+              <p>
+                A look back at the year's most resilient design projects When we
+                left our desks back in March, we didn't think twice about
+                leaving our office plants and reading glasses behind. Days
+                became weeks, weeks stretched to months. (We eventually said
+                goodbye to the fiddle leaf figs). Soon we were sharing tips on
+                how to work togther while apart,...
+              </p>
+            </div>
+          </div>
+        </a>
+      </div>
+    </section>
+
+    <section>
+      <!-- Section 3 -->
+      <div class="divider conatiner-80"></div>
+      <!-- Article 1 -->      
+      <div class="home-card">
+        <a href="/error404.html">
+          <div class="card">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/user-friendly-feedback_3X2tile.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
               <h2>
                 Lessons From the Scariest Design Disaster in American History
               </h2>
@@ -39,35 +120,41 @@
                 Op-Ed
               </div>
             </div>
-          </a>
-        </div>
-        <div class="cardholder"><!-- Article 2 -->
-          <a href="/error404.html">
-            <div class="card">
-              <img
-                src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/digital-backpack_3X2_library_00.png"
-                style="width:100%"
-              />
-              <h2>
-                Lessons From the Scariest Design Disaster in American History
-              </h2>
-              <p>
-                Designer and journalist Cliff Kuang shares an excerpt from “User
-                Friendly”
-              </p>
-              <div class="card-topic">
-                Op-Ed
-              </div>
+          </div>
+        </a>
+      </div>
+      <div class="cardholder">
+        <!-- Article 2 -->
+        <a href="/error404.html">
+          <div class="card">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/digital-backpack_3X2_library_00.png"
+              style="width:100%"
+            />
+            <h2>
+              Lessons From the Scariest Design Disaster in American History
+            </h2>
+            <p>
+              Designer and journalist Cliff Kuang shares an excerpt from “User
+              Friendly”
+            </p>
+            <div class="card-topic">
+              Op-Ed
             </div>
-          </a>
-        </div>
-      </section>
+          </div>
+        </a>
+      </div>
+    </section>
 
-      <div class="spacing" style="height:100px"></div>
+    <div class="spacing" style="height:100px"></div>
 
-      <footer class="footer">
-        <div class="spacing" style="height:100px"></div>
-          <div class="footer-about left">
+    <!-- FOOTER -->
+    <footer class="footer">
+      <div class="container" style="width:80%; margin:auto">
+        <!-- Top part of the Footer -->
+        <div class="footer-top">
+          <!-- Simple Introduction about Google Design -->
+          <div class="footer-about left" style="width:70%">
             <h3>Google Design</h3>
             <br />
             <p>
@@ -79,7 +166,8 @@
               and technology.
             </p>
           </div>
-          <div class="footer-links right">
+          <!-- Footer Links -->
+          <div class="footer-links left">
             <div class="footer-links-50 left">
               <h3>Discover</h3>
               <br />
@@ -100,9 +188,28 @@
               <a href="/error404.html">Dribbble</a>
             </div>
           </div>
-        <div class="spacing" style="height:50px"></div>
-        text
-      </footer>
-    </div>
+        </div>
+        <div class="clearfix"></div>
+
+        <!-- Bottom part of the Footer -->
+        <div class="footer-bot">
+          <!-- Footer Links -->
+          <div class="google-link left">
+            <a href="https://www.google.com">
+              <img
+                src="https://images.theconversation.com/files/93616/original/image-20150902-6700-t2axrz.jpg?ixlib=rb-1.1.0&q=45&auto=format&w=1000&fit=clip"
+                style="height:40px; width:40px"
+              />
+            </a>
+          </div>
+
+          <div class="container right">
+            <a href="/error404.html">Privacy</a>
+            &
+            <a href="/error404.html">Terms</a>
+          </div>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

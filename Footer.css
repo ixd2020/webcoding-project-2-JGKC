@@ -1,12 +1,13 @@
 .footer {
-  height: 500px;
+  height: 450px;
   width:100%;
-  
   box-shadow: 0px -3px 2px #eee;
+  padding: 100px 0px 0px 0px;
 }
 
 .footer a {
   text-decoration: none;
+  line-height: 23px;
   color:#aaa;
 }
 
@@ -14,25 +15,24 @@
   text-decoration: underline;
 }
 
-
+/* Footer - About */
 .footer-about{
+  width:70%;
+  height:250px;
   
-  
-  
-  width:30%;
-  float: left;
-  border:1px solid red;
+  /*border:1px solid red;*/
 }
 
-
+/* Footer - Links */
 .footer-links{
   width:30%;
+  height:250px;
   
-  border:1px solid red;
+  /*border:1px solid red;*/
 }
 
 .footer-links-50{
   width:50%;
-    
-  border:1px solid blue;
+  padding: 0px 20px;
+  /*border:1px solid blue;*/
 }
