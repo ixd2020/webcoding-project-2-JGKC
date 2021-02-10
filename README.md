@@ -1,10 +1,10 @@
-Version 0.1 (End of Week 14)
+Version 4 (End of Week 17 Class)
 
 |HTML|Completion Rate|
 |---|---|
-|Home|0%|
-|Resources|0%|
-|About|90%|
+|Home|100%|
+|Resources|100%|
+|About|100%|
 |Error404|100%|
 <br>
 <br>
@@ -12,10 +12,9 @@ Version 0.1 (End of Week 14)
 |CSS|Completion Rate|
 |---|---|
 |Navigation|100%|
-|Index Navigation|80%|
+|Index Navigation|100%|
 |Footer|100%|
-|Home-Cards|20%|
-|Resources-Cards|0%|
+|Cards|???%|
 
 
-Need to figure out the home-cards div and the resources-cards div, <br>
+ALL DONE!!!! YAYYAYAYAYAYAYAYAYAYAY!

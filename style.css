@@ -1,11 +1,11 @@
 /* CSS files add styling rules to your content */
-@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&family=Roboto+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@400;500;600;700&family=Roboto+Mono&display&family=Poppins:wght@400;500&display=swap');
 
 * {
   margin:0;
   padding:0;
   
-  font-family:Roboto,Arial,sans-serif;
+  font-family: 'Poppins', sans-serif;
   box-sizing:border-box;
 }
 
@@ -21,11 +21,19 @@
 
 /* Typography */
 
+
 h1 {
-  font-family: Roboto, sans-serif;
+  font-family: 'Poppins', sans-serif;
   font-size:36px;
   font-weight:400;
   
+}
+
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size:22px;
+  font-weight:400;
+  margin: 20px 0px;
 }
 
 
@@ -36,18 +44,39 @@ h3 {
   color: #666
 }
 
+h4 {
+  font-family: 'Roboto Mono', monospace;
+  font-size:14px;
+  font-weight:400;
+  color: #72757a;
+  margin-top:20px;
+}
+
+a {
+  font-family: 'Poppins', sans-serif;
+  color: #1967D2;
+  text-decoration: underline;
+}
 
 
 /* Placement & Designs */
+
+
+
 .container-80 {
   width:80%;
+  margin:auto;
+}
+
+.container-85 {
+  width:85%;
   margin:auto;
 }
 
 .divider {
   height:50px;
   border-bottom: 5px solid #4285f4;
-  margin: 30px;
+  margin: 30px 40px;
 }
 
 .spacing {

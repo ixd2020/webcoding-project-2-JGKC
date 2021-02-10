@@ -1,20 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    
+    <title>Google Design</title>
 
-    <title>Hello!</title>
-
-    <!-- import the webpage's stylesheet -->
     <link rel="stylesheet" href="/style.css" />
     <link rel="stylesheet" href="/Navigation.css" />
     <link rel="stylesheet" href="/Footer.css" />
 
-    <link rel="stylesheet" href="/Cards.css" />
-    <!-- import the webpage's javascript file -->
-    <script src="/script.js" defer></script>
+    <link rel="stylesheet" href="/Card.css" />
     <!-- import icons from font awesome -->
     <link
       rel="stylesheet"
@@ -23,18 +20,12 @@
   </head>
   <body>
     <!-- NAVIGATION -->
-    <div
-      class="container"
-      style="width:20%; margin:auto; padding-top:10px;height:110px;"
-    >
       <img
         src="https://cdn.glitch.com/eeb99deb-beee-4fa2-9ade-69fa216ebc43%2FGD-logo-2.png?v=1611803265328"
-        style="width:100%;height:auto"
+        style="height:auto;width:300px;display: block; margin-left: auto;margin-right: auto;margin-top:40px;"
       />
-    </div>
-
     <nav class="nav">
-      <div class="container-85">
+      <div class="container-80">
         <!-- HOME - EMPTY IN INDEX PAGE-->
         <div class="nav-logo"></div>
 
@@ -50,7 +41,7 @@
           </div>
           <!-- RESOURCES -->
           <div class="link-container nav-resources">
-            <a href="/error404.html">Resources</a>
+            <a href="/resources.html">Resources</a>
           </div>
           <!-- JOBS -->
           <div class="link-container nav-jobs">
@@ -69,41 +60,165 @@
           </div>
         </div>
       </div>
+      <div class="clearfix"></div>
     </nav>
 
-    <!-- Section 1 -->
+    <!-- SECTION 1 BIG -->
     <section class="container-85">
-      <div class="big-cardholder">
-        <a href="/error404.html">
-          <div class="card">
-            <img
-              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Google-design-2020_3X2.png"
-            />
-            <div class="card-text">
-              <h2>
-                Google Design's Best of 2020
-              </h2>
-              <p>
-                A look back at the year's most resilient design projects When we
-                left our desks back in March, we didn't think twice about
-                leaving our office plants and reading glasses behind. Days
-                became weeks, weeks stretched to months. (We eventually said
-                goodbye to the fiddle leaf figs). Soon we were sharing tips on
-                how to work togther while apart,...
-              </p>
-            </div>
+      <div class="card" style="width:100%">
+        <div class="card-content">
+          <img
+            src="https://cdn.glitch.com/eeb99deb-beee-4fa2-9ade-69fa216ebc43%2FGoogle%20Design%202020.png?v=1612896078604"
+            style="width:100%"
+          />
+          <div class="card-text">
+            <h1>
+              Google Design's Best of 2020
+            </h1>
+            <h3 style="margin:20px 0px">
+              A look back at the year's most resilient design projects
+            </h3>
+            <p style="width:65%;color:blck">
+              When we left our desks back in March, we didn't think twice about
+              leaving our office plants and reading glasses behind. Days became
+              weeks, weeks stretched to months. (We eventually said goodbye to
+              the fiddle leaf figs). Soon we were sharing tips on how to work
+              togther while apart,...
+            </p>
+            <h4>
+              Editorial
+            </h4>
           </div>
-        </a>
+        </div>
       </div>
+      <div class="clearfix"></div>
+      <div class="divider"></div>
     </section>
 
-    <section>
-      <!-- Section 3 -->
-      <div class="divider conatiner-80"></div>
-      <!-- Article 1 -->      
-      <div class="home-card">
-        <a href="/error404.html">
-          <div class="card">
+    <!-- SECTION 2 NEWSFEED -->
+    <section class="container-85">
+      <div class="row-container" style="justify-content: space-between;">
+        <h2 style="padding-left:40px;font-weight:500;">Newsfeed</h2>
+        <a
+          href="/error404.html"
+          style="font-size:16px;padding:20px 40px;text-decoration:none"
+          ><b>MORE NEWS</b></a
+        >
+      </div>
+      <div class="row-container">
+        <div style="width:50%; float:left">
+          <a href="/error404.html" style="text-decoration:none; color:black">
+            <div class="card-content">
+              <div class="card-text">
+                <h4 style="margin:0">
+                  12/14/2020
+                </h4>
+                <h2 style="margin:0">
+                  Celebrating the 2020 Material Design Award Winners
+                </h2>
+              </div>
+              <img
+                src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/GD_Newsfeed_MDAAwards_3X2.png"
+                style="width:100%; margin:20px 0px"
+              />
+              <div class="card-text">
+                <p>
+                  It’s time once again to celebrate the product teams who use
+                  ingenuity and creativity to bring Material to life. A big
+                  round of applause to Moooi, Epsy, and KAYAK! This year’s
+                  Material Design Award winners exemplify Material Design in
+                  action, and use the system as a flexible, customizable
+                  foundation for beautiful, usable experiences. Well done. Head
+                  over to the Material Design blog—ICYMI...
+                </p>
+              </div>
+            </div>
+          </a>
+        </div>
+        <div style="width:50%;float:left">
+          <a href="/error404.html" style="text-decoration:none; color:black">
+            <div class="card-content" style="padding:20px 40px">
+              <div class="card-text">
+                <h4 style="margin:0">
+                  07/27/2020
+                </h4>
+                <h2 style="margin:0">
+                  Actions for Accessibility in Design
+                </h2>
+                <p>
+                  When it comes to tech, fair isn't the defualt. But there are
+                  steps we can takes collectively to make technology work better
+                  for everyone. Last weekend marked the 30th anniversary of the
+                  Americans with Disabilities...
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a href="/error404.html" style="text-decoration:none; color:black">
+            <div class="card-content" style="padding:20px 40px">
+              <div class="card-text">
+                <h4 style="margin:0">
+                  06/26/2020
+                </h4>
+                <h2 style="margin:0">
+                  Celebrating Pride in Design
+                </h2>
+                <p>
+                  As Pride Month winds down, we're keeping the celebration going
+                  by highlighting LGBTQ+ stories and communities to join the
+                  months to come. At Google, the 2020 Pride Committee has
+                  committed to donating $...
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <a href="/error404.html" style="text-decoration:none; color:black">
+            <div class="card-content" style="padding:20px 40px">
+              <div class="card-text">
+                <h4 style="margin:0">
+                  06/22/2020
+                </h4>
+                <h2 style="margin:0">
+                  Designing for Equity
+                </h2>
+                <p>
+                  At Google Design, our goal is to support the future of design
+                  ad technology for all. This involves introducing new voices
+                  and amplifying less-heard ones. Now, more than ever, the
+                  design community must not...
+                </p>
+              </div>
+            </div>
+          </a>
+
+          <div
+            class="newsletter"
+            style="padding:20px 20px; background:#F0F3F4; margin:0px 40px; display:flex"
+          >
+            <p style="padding: 0px 0px 0px 20px; width:80%">
+              Want to stay up-to-date with Google Design?<br />
+              <a href="/error404.html">Sign up for our Newsletter</a>
+            </p>
+            <img
+              scr="https://cdn.glitch.com/eeb99deb-beee-4fa2-9ade-69fa216ebc43%2Fgdlogo.png?v=1612964863707"
+              style="width:64px;height:64px;"
+            />
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      <div class="divider"></div>
+    </section>
+
+    <!-- SECTION 3 -->
+    <section class="container-85">
+      <div class="row-container">
+        <!-- SECTION 3/1 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
             <img
               src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/user-friendly-feedback_3X2tile.jpg"
               style="width:100%"
@@ -116,55 +231,576 @@
                 Designer and journalist Cliff Kuang shares an excerpt from “User
                 Friendly”
               </p>
-              <div class="card-topic">
+              <h4>
                 Op-Ed
-              </div>
+              </h4>
             </div>
           </div>
-        </a>
-      </div>
-      <div class="cardholder">
-        <!-- Article 2 -->
-        <a href="/error404.html">
-          <div class="card">
+        </div>
+        <!-- SECTION 3/2 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
             <img
               src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/digital-backpack_3X2_library_00.png"
               style="width:100%"
             />
-            <h2>
-              Lessons From the Scariest Design Disaster in American History
-            </h2>
-            <p>
-              Designer and journalist Cliff Kuang shares an excerpt from “User
-              Friendly”
-            </p>
-            <div class="card-topic">
-              Op-Ed
+            <div class="card-text">
+              <h2>Souvlaki, playful puns, and logging off</h2>
+              <p>
+                We ask Googlers what they'd pack in thier virtual carry-ons to
+                the destinations of thier dreams
+              </p>
+              <h4>
+                Editorial
+              </h4>
             </div>
           </div>
-        </a>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      <div class="row-container">
+        <!-- SECTION 3/3 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Branded-Maps_3X2_tile.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Exploring Color on Google Map</h2>
+              <p>
+                How a minimalist apporach unlocked our ability to create a more
+                detailed representation of the world
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION 3/4 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/seed_studio_library_tile_3X2.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Beneath the Surface</h2>
+              <p>
+                Google Seed Studio shares the inspiration behind their latest
+                creative direction
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+      <div class="row-container">
+        <!-- SECTION 3/5 -->
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/human-ambience_3X2.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>More Human Ambiance in Ambient Computing</h2>
+              <p>
+                How to make ambient computing work–for people
+              </p>
+              <h4>
+                Op-Ed
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION 3/6 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <div class="card-text" style="border-top:5px solid #4285f4">
+              <h2>
+                At last, the power of interpolation that font designers have
+                been using for years is available in standard applications, an
+                is in the hands of everyone. This new breed of fonts can be
+                finely adjusted by eye or by automation, just onnce for a simple
+                document or many times per second for live interaction and
+                animation.
+              </h2>
+
+              <div class="row-container">
+                <img
+                  src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/davelab6-grey.jpg"
+                  style="width:10%; border-radius:100%; margin-right:20px"
+                />
+                <p>
+                  <span style="font-weight:500">Dave Crossland</span><br />
+                  Variable Fonts Are Here to Stay
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </section>
+
+    <!-- SECTION 4 FEATURED -->
+    <section class="container-85">
+      <div class="row-container" style="justify-content: space-between;">
+        <div>
+          <h2 style="padding-left:40px;font-weight:500;margin-bottom:0;">
+            Featured Collection
+          </h2>
+          <h2 style="padding-left:40px;margin-top:0;font-size:20px;">
+            Type & Typography
+          </h2>
+        </div>
+        <a
+          href="/error404.html"
+          style="font-size:16px;padding:20px 40px;text-decoration:none"
+          ><b>VIEW COLLECTION</b></a
+        >
+      </div>
+
+      <div
+        class="row-container2"
+        style="display:flex; justify-content:space-between; align-items:stretch; width: 130%"
+      >
+        <div style="width: 50%;">
+          <div class="card-content">
+            <div class="card-text">
+              <p>
+                Explore typographic culture and discover fonts for yours next
+                project with this collection of case studies, technical updates,
+                and articles curated by the Google Fonts team.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/VF-are-finally-here_3X2.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Variable Fonts Are Here to Stay</h2>
+              <p>
+                As variable fonts make their way into Google Fonts, learn what
+                they are and their benefits for digital design-better
+                compression for developers, greater expression for designers,
+                and finer text typography for readers.
+              </p>
+              <h4>Guide</h4>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/YouTubeSans-hero_3x2.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>YouTube Sans: The Making of a Typeface</h2>
+              <p>
+                How YouTube created a tallor-made font that doubles as brand
+                ambassador
+              </p>
+              <h4>
+                Case Study
+              </h4>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/hot-type-aways-fresh_3x2.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Hot Type, Always Fresh</h2>
+              <p>
+                Get to know how the Google Fonts API keeps your type up-to-date and increasingly efficient
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+
+      <div style="width:100%;display:flex;justify-content: flex-end">
+        <button class="button">
+          <i class="fa fa-arrow-right fa-lg"></i>
+        </button>
+        <div class="clearfix"></div>
+      </div>
+      <div class="divider"></div>
+    </section>
+
+    <!-- SECTION 5 -->
+    <section class="container-85">
+      <div class="row-container">
+        <!-- SECTION 5/1 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/here-there-everywhere_3X2_Feature-hero.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>
+                Here, Thee, and Everywhere
+              </h2>
+              <p>
+                From basements to highrises, folding tables to gaming chairs,
+                familial cemates to curious cat colleagues, six Googlers shares
+                thier makeshift, out-office workstations
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION 5/2 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/floating-action-button_3X2_tile.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Absolutely FAB</h2>
+              <p>
+                How the Floating Action Button became a Material Design icon
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="clearfix"></div>
+      <div class="row-container">
+        <!-- SECTION 5/3 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/simulating-intelligence_3X2tile.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Simulating Intelligence</h2>
+              <p>
+                Techniques for prototyping machine learning systems across
+                products and features
+              </p>
+              <h4>
+                Guide
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION 5/4 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/conversation-ar-id_feature.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>
+                Three Designers Walk Into a Virtual Conversation...
+              </h2>
+              <p>
+                Gathering a trio of creatives at the leading edge of their
+                fields, we explore how industrial design, AR, and VR are moving
+                design foward at Google
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+
+      <div class="row-container">
+        <!-- SECTION 5/5 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <div class="card-text" style="border-top:5px solid #4285f4">
+              <h2>
+                "I'm not sharing this because I find it therapeutic to publicize
+                my stuggles, but because I'm convinced I'm not the only one who
+                has them. No matter how successful or confident you are, you're
+                probably fighting a few toxic core beliefs of your own. If
+                you're unaware of them, these beliefs might be directing your
+                life and career, like some invisible broken compass."
+              </h2>
+              <div class="row-container">
+                <img
+                  src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Screen_Shot_2020-08-06_at_11.42.26_AM.png"
+                  style="width:10%; border-radius:100%; margin-right:20px"
+                />
+                <p>
+                  <span style="font-weight:500">Hector Ouilhet</span><br />
+                  Contrary to Popular Belief
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION 5/6 -->
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/Lessons_learned_feature_hero.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Towards Resilient Systems</h2>
+              <p>
+                Designers and techologists look to the natural envision more
+                resilient futures
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="divider"></div>
+    </section>
+
+    <!-- SECTION 6 TWITTER -->
+    <section class="container-85">
+      <h2 style="padding-left:40px; font-weight:500">The Latest</h2>
+      <div
+        class="row-container2"
+        style="display:flex; justify-content:space-between; align-items:flex-start; width:130%"
+      >
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/7dzaoUEw.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <p>
+                Sapce Grotesk? It's out of this world. Originally designed by
+                @Florian_Karsten, the proportaional sans-serif typeface variant
+                is based on @ColophonFoundry's fixed-width Space Mono family.
+                Now live on Google Fonts.
+              </p>
+              <i
+                class="fa fa-twitter fa-lg"
+                style="color:#00ACEE; margin-top:40px"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/h_ihStZT.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <p>
+                Google design teams are moving towards "a future where we design
+                out waste and pollution, and keep materials in use longer" by
+                prioritizing recycled & renewable material. Read about our
+                commitments towards sustainable hardware.
+              </p>
+              <i
+                class="fa fa-twitter fa-lg"
+                style="color:#00ACEE; margin-top:40px"
+              ></i>
+            </div>
+          </div>
+        </div>
+
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/GD_Tw_BuildForEveryone_092020.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <p>
+                We can always ask ourselves: Who else? Get to know Google's Head
+                of Product Inculsion @its_me_AJB and her best practices in
+                product design with her new book.
+              </p>
+              <i
+                class="fa fa-twitter fa-lg"
+                style="color:#00ACEE; margin-top:40px"
+              ></i>
+            </div>
+          </div>
+        </div>
+        
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/KjOxUshF.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <p>
+                SPAN19 speaker & Deaf sound artist @chirsunkim, and @ChristophTester are taking back their language and culture via Instagranm.
+              </p>
+              <i
+                class="fa fa-twitter fa-lg"
+                style="color:#00ACEE; margin-top:40px"
+              ></i>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+      <div class="clearfix"></div>
+      <div style="width:100%;display:flex;justify-content: flex-end">
+        <button class="button">
+          <i class="fa fa-arrow-right fa-lg"></i>
+        </button>
+        <div class="clearfix"></div>
+      </div>
+
+      <div class="divider"></div>
+    </section>
+
+    <!-- SECTION 7 -->
+    <section class="container-85">
+      <div class="row-container">
+        <!-- SECTION 7/1 -->
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/rehearse-the-future_3X2.jpg"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Rehearsing the Future</h2>
+              <p>
+                From moonshot thinking to the power of listening, members of
+                Google's speculative design teams discuss how they're rehearsing
+                for what's next.
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION 7/2 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/good-design_3X2.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>Is it Good Design? Well, yeah.</h2>
+              <p>
+                We ask people who design and build Google products what they
+                consider to be good design.
+              </p>
+              <h4>
+                Editorial
+              </h4>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row-container">
+        <!-- SECTION 7/3 -->
+        <div class="card">
+          <div class="card-content">
+            <img
+              src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/GD_MDA_3X2_OpenCall.png"
+              style="width:100%"
+            />
+            <div class="card-text">
+              <h2>2020 Material Design Awards</h2>
+              <p>
+                Nominate your product for a 2020 Material Design Award and help
+                us showcase the flexibility and capability of the Material
+                Design system
+              </p>
+              <h4>
+                Announcement
+              </h4>
+            </div>
+          </div>
+        </div>
+        <!-- SECTION 7/4 -->
+        <div class="card" style="float:left">
+          <div class="card-content">
+            <div class="card-text" style="border-top:5px solid #4285f4">
+              <h2>
+                The juxtaposition of using something from the newsprint era for
+                such a far-reaching cultural digital product appealed to us and
+                felt like a nice nod to our past.
+              </h2>
+              <div class="row-container">
+                <img
+                  src="https://storage.googleapis.com/gd-wagtail-prod-assets/original_images/ChrisBettig_profile.png"
+                  style="width:10%; border-radius:100%; margin-right:20px"
+                />
+                <p>
+                  <span style="font-weight:500">Chris Betting</span><br />
+                  YouTube Sans: The Making of a Typeface
+                </p>
+              </div>
+              <div class="clearfix"></div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
 
-    <div class="spacing" style="height:100px"></div>
-
     <!-- FOOTER -->
     <footer class="footer">
-      <div class="container" style="width:80%; margin:auto">
+      <div class="container-80" style="width:80%; margin:auto">
         <!-- Top part of the Footer -->
         <div class="footer-top">
           <!-- Simple Introduction about Google Design -->
-          <div class="footer-about left" style="width:70%">
+          <div class="footer-about left">
             <h3>Google Design</h3>
             <br />
             <p>
-              Google Design is a cooperative effort led by a <br />
-              group of designers, writers, and developers at <br />
-              Google. We work across teams to publish original <br />
-              content, produce events, and foster creative and <br />
-              educational partnerships that advance design <br />
+              Google Design is a cooperative effort led by a
+              group of designers, writers, and developers at 
+              Google. We work across teams to publish original 
+              content, produce events, and foster creative and 
+              educational partnerships that advance design 
               and technology.
             </p>
+          </div>
+          <div style="width:20%">
+             
           </div>
           <!-- Footer Links -->
           <div class="footer-links left">
